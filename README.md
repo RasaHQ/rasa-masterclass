@@ -28,3 +28,13 @@ The code in this repository is compatible with latest release of Rasa.
 To install Rasa run (requires Python 3.6.0 or higher):
 
 ```pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple```
+
+---
+
+## License
+Licensed under the Apache License, Version 2.0.
+Copyright 2019 Rasa Technologies GmbH. [Copy of the license](LICENSE.txt).
+
+A list of the Licenses of the dependencies of the project can be found at
+the bottom of the
+[Libraries Summary](https://libraries.io/github/RasaHQ/rasa).
