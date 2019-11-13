@@ -1,7 +1,7 @@
 # Episode 2: Creating the NLU training data
 
 ---
-### What's in this episode?
+## What's in this episode?
 
 In this episode you will:
 - Understand the format of the NLU training data
