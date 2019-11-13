@@ -18,8 +18,12 @@ need to replicate what has been done in specific episodes: data, code files, etc
 
 To use the repository, clone it to your local machine:
 
+```git clone https://github.com/RasaHQ/rasa-masterclass.git```
+
 After that, navigate to the episode you are interested in and follow the instructions 
-there.
+there. For example:
+
+```cd episode1```
 
 ## Which Rasa version should I use?
 
