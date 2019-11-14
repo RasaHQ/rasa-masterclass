@@ -13,6 +13,10 @@ Each week we cover a new topic including the theoretical concepts as well as pra
 implementation of what has been covered. This repository contains the files you 
 need to replicate what has been done in specific episodes: data, code files, etc.
 
+There are two ways to use this repository:  
+1. Clone the repository and use the code and data files to follow the episode  
+2. Clone the repository and run the code in the provided jupyter notebooks 
+
 
 ## How to use this repository
 
