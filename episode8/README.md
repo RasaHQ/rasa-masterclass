@@ -1,4 +1,4 @@
-# Episode 8: Improving the assistant - improving the NLU, implementing custom action, form action and fallback
+# Episode 8: Implementing custom actions with backend integrations, forms and fallback
 
 ---
 ## What's in this episode?
