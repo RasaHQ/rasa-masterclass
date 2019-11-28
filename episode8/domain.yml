@@ -1,0 +1,67 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - inform
+  - search_provider
+  - thanks
+  - out_of_scope
+
+entities:
+- facility_type
+- facility_id
+- location
+
+slots:
+  facility_type:
+    type: unfeaturized
+  facility_address:
+    type: unfeaturized
+  facility_id:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+
+forms:
+- facility_form
+
+actions:
+- utter_noworries
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- utter_ask_facility_type
+- find_facility_types
+- find_healthcare_address
+- utter_address
+
+
+templates:
+  utter_greet:
+  - text: "Hi. What are you looking for?"
+  - text: "Hey there! Please choose one of the healthcare facility options:"
+  - text: "Hello! What can I help you find today?"
+
+  utter_goodbye:
+  - text: "Talk to you later!"
+  - text: "Have a good day."
+  - text: "Until next time!"
+
+  utter_noworries:
+  - text: "My pleasure."
+  - text: "You are welcome!"
+
+  utter_ask_facility_type:
+  - text: "Choose one of the following to search for: hospital, nursing home, or home health agency."
+
+  utter_ask_location:
+  - text: "Please provide your city name."
+  - text: "What is your current city?"
+  - text: "Please provide your city name or zip code."
+  - text: "Please enter your zip code or city name to find local providers."
+
+  utter_address:
+  - text: "The address is {facility_address}."
