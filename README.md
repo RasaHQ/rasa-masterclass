@@ -35,7 +35,7 @@ The code in this repository is compatible with latest release of Rasa.
 
 To install Rasa run (requires Python 3.6.0 or higher):
 
-```pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple```
+```pip3 install rasa```
 
 ---
 
