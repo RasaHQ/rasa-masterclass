@@ -31,11 +31,11 @@ there. For example:
 
 ## Which Rasa version should I use?
 
-The code in this repository is compatible with latest release of Rasa. 
+The code in this repository is compatible with Rasa 1.8.0. 
 
 To install Rasa run (requires Python 3.6.0 or higher):
 
-```pip3 install rasa```
+```pip3 install rasa==1.8.0```
 
 ---
 
